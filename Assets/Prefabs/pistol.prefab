@@ -155,7 +155,7 @@ Transform:
   m_Children:
   - {fileID: 7157418216982092924}
   - {fileID: 8616364392711004014}
-  - {fileID: 9172550359277191325}
+  - {fileID: 8866193286563870179}
   - {fileID: 73094030023642192}
   - {fileID: 73094030296279712}
   - {fileID: 73094030395487656}
@@ -432,23 +432,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 470933884182090030}
     m_Modifications:
-    - target: {fileID: 1743301284569550, guid: ad2ab49d0a2a17148bd51c93d977bdbc, type: 3}
-      propertyPath: m_Name
-      value: MuzzleFlash01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1743301284569550, guid: ad2ab49d0a2a17148bd51c93d977bdbc, type: 3}
-      propertyPath: m_Layer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1992675705445476, guid: ad2ab49d0a2a17148bd51c93d977bdbc, type: 3}
       propertyPath: m_Layer
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4094106582842296, guid: ad2ab49d0a2a17148bd51c93d977bdbc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0298
       objectReference: {fileID: 0}
     - target: {fileID: 4300533007854612, guid: ad2ab49d0a2a17148bd51c93d977bdbc, type: 3}
       propertyPath: m_RootOrder
@@ -527,11 +516,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198234346748616026, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
         type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 198234346748616026, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
-        type: 3}
       propertyPath: InitialModule.startSize.minScalar
       value: 0.33
       objectReference: {fileID: 0}
@@ -580,11 +564,29 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 310534426612849002, guid: 46b2dd840cacee64a91102b567d2e071,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0298
+      objectReference: {fileID: 0}
+    - target: {fileID: 336578432036806895, guid: 46b2dd840cacee64a91102b567d2e071,
+        type: 3}
+      propertyPath: m_Name
+      value: Muzzle Flash Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 336578432036806895, guid: 46b2dd840cacee64a91102b567d2e071,
+        type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ad2ab49d0a2a17148bd51c93d977bdbc, type: 3}
---- !u!4 &9172550359277191325 stripped
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46b2dd840cacee64a91102b567d2e071, type: 3}
+--- !u!4 &8866193286563870179 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4300533007854612, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
+  m_CorrespondingSourceObject: {fileID: 310534426612849002, guid: 46b2dd840cacee64a91102b567d2e071,
     type: 3}
   m_PrefabInstance: {fileID: 9170514921364810889}
   m_PrefabAsset: {fileID: 0}
